@@ -1,6 +1,6 @@
 # Observable
 
-Observavle is a very tiny library to notify events to its subscribers.
+Observable is a very tiny library to notify events to its subscribers.
 
 Its main goal is to subscribe events to the instance of the observable class and then trigger the events themselves by calling `notify` function, check the section how to use it.
 
