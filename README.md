@@ -1,3 +1,3 @@
-# Multicast
+# Obbservable
 
-Multicast is a lib to cast events to its subscribers.
+Observavle is a lib to notify events to its subscribers.
