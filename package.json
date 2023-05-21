@@ -1,0 +1,23 @@
+{
+  "name": "observable",
+  "version": "1.0.0",
+  "repository": "git@github.com:tipy/observable.git",
+  "author": "Gustavo Isensee <g.isensee@youngcapital.nl>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "esbuild": "^0.17.19",
+    "esbuild-jest": "^0.5.0",
+    "esbuild-jest-transform": "^1.1.1",
+    "jest": "^29.5.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "test": "jest src/",
+    "ts-types": "tsc",
+    "build": "rimraf lib && yarn ts-types && node ./esbuild.js"
+  }
+}
