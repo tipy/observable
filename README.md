@@ -37,6 +37,6 @@ obs.notify();
 
 | Function name | Parameters | Description |
 |-----|-----|-----|
-| `subscribe` | `function(data?)` | you must pass a function to the subscriber. `data` is optional |
+| `subscribe` | `function(data?)` | you must pass a function as an argument to the subscribe function. `data` is optional |
 | `unsubscribe` | `function` | you must pass the function you want to unsubscribe |
 | `notify` | `data?` | `data` is optional. if passed, it will pass along to the subscribed functions |
