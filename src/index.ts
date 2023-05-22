@@ -1,4 +1,4 @@
-export default class Observable {
+class Observable {
   private observers: ((data?: any) => void)[] = [];
 
   subscribe(func: (data?: any) => void): void {
@@ -13,3 +13,5 @@ export default class Observable {
     this.observers?.forEach?.((observer) => observer(data));
   }
 }
+
+export default Observable;
