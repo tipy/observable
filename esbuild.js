@@ -9,7 +9,7 @@ esbuild
     minify: true,
     splitting: true,
     format: 'esm',
-    target: ['esnext'],
+    target: ['es2021'],
     ignoreAnnotations: true
   })
   .catch(() => process.exit(1));

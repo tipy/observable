@@ -1,6 +1,6 @@
 {
   "name": "@tipy/observable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "git@github.com:tipy/observable.git",
   "author": "Gustavo Isensee <g.isensee@youngcapital.nl>",
   "license": "MIT",
