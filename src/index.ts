@@ -1,11 +1,11 @@
 class Observable {
-  private observers: ((data?: any) => void)[] = [];
+  private observers: ((data?: any) => void | unknown)[] = [];
 
-  subscribe(func: (data?: any) => void): void {
+  subscribe(func: (data?: any) => void | unknown): void {
     this.observers?.push?.(func);
   }
 
-  unsubscribe(func: () => void): void {
+  unsubscribe(func: (data?: any) => void | unknown): void {
     this.observers = this.observers?.filter?.((observer) => observer !== func);
   }
 
