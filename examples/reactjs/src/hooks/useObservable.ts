@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Observable from '../../../../src/index';
+import Observable from '@tipy/observable';
 
 /**
  * Custom React hook to subscribe to an Observable store

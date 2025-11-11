@@ -257,6 +257,11 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.53.2.tgz#d9ab606437fd072b2cb7df7e54bcdc7f1ccbe8b4"
   integrity sha512-k+/Rkcyx//P6fetPoLMb8pBeqJBNGx81uuf7iljX9++yNBVRDQgD04L+SVXmXmh5ZP4/WOp4mWF0kmi06PW2tA==
 
+"@tipy/observable@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@tipy/observable/-/observable-1.1.0.tgz#f4b56613145972735ab527aad70fb3c43862fdd9"
+  integrity sha512-xetgAxAOEnVxfuNmjv5HaoPeLkPA7lARGe1nrYO+3wE7Yf3gok5jTDRTWKluuW28adKy7cDHJKaHIvlNyjfBxA==
+
 "@types/estree@1.0.8":
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.8.tgz#958b91c991b1867ced318bedea0e215ee050726e"

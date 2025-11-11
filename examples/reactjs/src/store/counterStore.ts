@@ -1,4 +1,4 @@
-import Observable from '../../../../src/index';
+import Observable from '@tipy/observable';
 
 interface CounterState {
   count: number;

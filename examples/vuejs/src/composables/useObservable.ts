@@ -1,5 +1,5 @@
 import { ref, onMounted, onUnmounted, type Ref } from 'vue';
-import Observable from '../../../../src/index';
+import Observable from '@tipy/observable';
 
 /**
  * Custom Vue composable to subscribe to an Observable store
