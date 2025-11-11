@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1]
+
+### Changed
+- Optimized esbuild configuration for smaller bundle sizes
+- Improved tree-shaking by removing `ignoreAnnotations` flag
+- Changed sourcemap to external format to reduce published package size
+- Updated tsconfig to exclude test files from compilation output
+- Optimized React example app imports (direct `createRoot` import, removed unused React import)
+- Removed React StrictMode from React example for cleaner development experience
+
+### Improved
+- Build output now includes bundle analysis via metafile
+- Reduced published package size from 96KB to 24KB (75% reduction)
+- Added `platform: 'neutral'` for better cross-environment compatibility
+- Set `legalComments: 'none'` to minimize bundle size
+- Enabled explicit `treeShaking: true` for better optimization
+
 ## [1.1.0] - Current Release
 
 ### Added
@@ -49,6 +66,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Simple event notification system
 - Optional data passing to subscribers
 
+[1.1.1]: https://github.com/tipy/observable/releases/tag/v1.1.1
 [1.1.0]: https://github.com/tipy/observable/releases/tag/v1.1.0
 [1.0.3]: https://github.com/tipy/observable/releases/tag/v1.0.3
-
