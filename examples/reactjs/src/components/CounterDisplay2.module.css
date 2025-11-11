@@ -1,0 +1,19 @@
+.container {
+  padding: 20px;
+  border: 2px solid #2196F3;
+  border-radius: 8px;
+  background-color: #e3f2fd;
+  margin: 10px 0;
+}
+
+.title {
+  margin: 0 0 10px 0;
+  color: #1565c0;
+}
+
+.count {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+

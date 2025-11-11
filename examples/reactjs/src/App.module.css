@@ -1,0 +1,42 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.description {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.info {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #fafafa;
+  border: 1px solid #f3f3f3;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #666;
+}
+
+.info strong {
+  font-weight: 600;
+}
+
+.info ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.info li {
+  margin-bottom: 5px;
+}
+

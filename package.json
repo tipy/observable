@@ -1,11 +1,46 @@
 {
   "name": "@tipy/observable",
-  "version": "1.0.3",
-  "repository": "git@github.com:tipy/observable.git",
-  "author": "Gustavo Isensee <g.isensee@youngcapital.nl>",
+  "version": "1.1.0",
+  "description": "A powerful, type-safe, framework-agnostic Observable implementation for managing state and event subscriptions. Similar to Zustand but more flexible.",
+  "keywords": [
+    "observable",
+    "observer",
+    "state-management",
+    "event-emitter",
+    "pubsub",
+    "typescript",
+    "framework-agnostic",
+    "zustand",
+    "middleware",
+    "reactive",
+    "state",
+    "subscription",
+    "notify",
+    "listener",
+    "event-bus"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tipy/observable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tipy/observable/issues"
+  },
+  "homepage": "https://github.com/tipy/observable#readme",
+  "author": "Gustavo Isensee <gustavo.isensee@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE",
+    "EXAMPLES.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.1",
     "esbuild": "^0.17.19",
@@ -17,7 +52,11 @@
   },
   "scripts": {
     "test": "jest src/",
+    "test:watch": "jest src/ --watch",
+    "test:coverage": "jest src/ --coverage",
     "ts-types": "tsc",
-    "build": "rimraf lib && yarn ts-types && node ./esbuild.js"
-  }
+    "build": "rimraf lib && yarn ts-types && node ./esbuild.js",
+    "prepublishOnly": "yarn test && yarn build"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
