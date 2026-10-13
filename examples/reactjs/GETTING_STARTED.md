@@ -5,14 +5,14 @@
 1. **Install dependencies:**
    ```bash
    cd examples/reactjs
-   yarn install
+   pnpm install
    # or
    npm install
    ```
 
 2. **Start the development server:**
    ```bash
-   yarn dev
+   pnpm dev
    # or
    npm run dev
    ```

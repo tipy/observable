@@ -18,7 +18,7 @@ A powerful, type-safe, framework-agnostic Observable implementation for managing
 ## 📦 Installation
 
 ```bash
-yarn add @tipy/observable
+pnpm add @tipy/observable
 ```
 
 or
