@@ -29,14 +29,14 @@ src/
 
 1. Install dependencies:
    ```bash
-   yarn install
+   pnpm install
    # or
    npm install
    ```
 
 2. Run the development server:
    ```bash
-   yarn dev
+   pnpm dev
    # or
    npm run dev
    ```
