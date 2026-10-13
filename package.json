@@ -1,6 +1,6 @@
 {
   "name": "@tipy/observable",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A powerful, type-safe, framework-agnostic Observable implementation for managing state and event subscriptions. Similar to Zustand but more flexible.",
   "keywords": [
     "observable",
