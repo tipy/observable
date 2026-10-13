@@ -1,5 +1,7 @@
 {
   "transform": {
     "^.+\\.ts?$": "esbuild-jest-transform"
-  }
+  },
+  "roots": ["<rootDir>/src"],
+  "testPathIgnorePatterns": ["/node_modules/"]
 }

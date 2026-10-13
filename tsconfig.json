@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "emitDeclarationOnly": false,
+    "emitDeclarationOnly": true,
     "declaration": true,
     "target": "es2015",
     "lib": ["es2015", "es2017"],
