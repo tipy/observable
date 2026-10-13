@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.2]
+
+### Changed
+- Switched the package manager from Yarn to pnpm (`packageManager: pnpm@10.34.7`); `yarn.lock` replaced by `pnpm-lock.yaml`
+- Added `@types/node` as an explicit dev dependency so type resolution no longer depends on hoisting
+- Upgraded `vue-tsc` to 2.x in the Vue example (1.x crashed on TypeScript 5.9)
+- Updated install/dev commands in the README and example docs to use pnpm
+
 ## [1.1.1]
 
 ### Changed
@@ -66,6 +74,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Simple event notification system
 - Optional data passing to subscribers
 
+[1.1.2]: https://github.com/tipy/observable/releases/tag/v1.1.2
 [1.1.1]: https://github.com/tipy/observable/releases/tag/v1.1.1
 [1.1.0]: https://github.com/tipy/observable/releases/tag/v1.1.0
 [1.0.3]: https://github.com/tipy/observable/releases/tag/v1.0.3

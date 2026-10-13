@@ -58,13 +58,13 @@ Choose your framework and follow the instructions:
 ```bash
 # For React
 cd reactjs
-yarn install
-yarn dev
+pnpm install
+pnpm dev
 
 # For Vue
 cd vuejs
-yarn install
-yarn dev
+pnpm install
+pnpm dev
 ```
 
 ## Comparison
