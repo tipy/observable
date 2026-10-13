@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `@types/node` as an explicit dev dependency so type resolution no longer depends on hoisting
 - Upgraded `vue-tsc` to 2.x in the Vue example (1.x crashed on TypeScript 5.9)
 - Updated install/dev commands in the README and example docs to use pnpm
+- Bundled the library with Vite 8 (Rolldown) instead of esbuild; type declarations are still emitted by `tsc`
 
 ## [1.1.1]
 

@@ -105,3 +105,5 @@ dist
 
 # custom
 lib/
+# Git worktrees (per project rules)
+.worktrees/
